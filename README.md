@@ -20,9 +20,9 @@ Windows / MAMP / PHP
 　→エラーが多発  
 
 ## 改善点・やりたいこと
-　・Linuxサーバー構築  
-　・メール送信  
-　・Laravel ver.の作成  
+・Linuxサーバー構築  
+・メール送信  
+・Laravel ver.の作成  
 
 ## どのような動作テストを行ったか
 ・正しく画面遷移するか  
@@ -37,7 +37,7 @@ Windows / MAMP / PHP
 ・以前作成したアプリ - https://github.com/chamty/bbs_php  
 ・PHP+MySQL（MariaDB） Webサーバーサイドプログラミング入門 - https://www.udemy.com/course/php7basic/learn/lecture/18121731  
 ・Windows10にUbuntu 18.04 LTSをインストールする - https://netwiz.jp/how-to-install-ubuntu-18-04-lts-on-windows10/  
-・Ubuntu 18.04にLAMP環境をインストールする - https://qiita.com/yoshiharu-semachi/items/  5f38ce17780ef83b5110  
+・Ubuntu 18.04にLAMP環境をインストールする - https://qiita.com/yoshiharu-semachi/items/5f38ce17780ef83b5110  
 ・PHPでメール送信するための方法 - https://techplay.jp/column/550  
 
 
