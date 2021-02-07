@@ -15,7 +15,7 @@ Windows / MAMP / PHP
 ・データベースに反映されない  
 　→INT型のカラムに文字型の値を入れようとしていた（errorInfoでエラー原因を特定）  
 ・Linuxサーバー構築 ※実装途中  
-  →エラーが多発（ubuntuのlocalhostを使用できるところまで完了）  
+　→エラーが多発（ubuntuのlocalhostを使用できるところまで完了）  
 ・メール送信 ※実装途中  
 　→エラーが多発  
 
@@ -36,7 +36,7 @@ Windows / MAMP / PHP
 ## 主な参考資料または参考サイト
 ・以前作成したアプリ - https://github.com/chamty/bbs_php  
 ・PHP+MySQL（MariaDB） Webサーバーサイドプログラミング入門 - https://www.udemy.com/course/php7basic/learn/lecture/18121731  
-・Windows10にUbuntu 18.04 LTSをインストールする - https://netwiz.jp/  how-to-install-ubuntu-18-04-lts-on-windows10/  
+・Windows10にUbuntu 18.04 LTSをインストールする - https://netwiz.jp/how-to-install-ubuntu-18-04-lts-on-windows10/  
 ・Ubuntu 18.04にLAMP環境をインストールする - https://qiita.com/yoshiharu-semachi/items/  5f38ce17780ef83b5110  
 ・PHPでメール送信するための方法 - https://techplay.jp/column/550  
 
