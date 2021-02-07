@@ -36,6 +36,10 @@ if (!empty($_POST)) {
       exit();
     }
 }
+
+if ($_REQUEST['action'] === 'rewrite' && isset($_SESSION['confirm'])) {
+  $_POST = $_SESSION['confirm'];
+}
 ?>
 
 <!DOCTYPE html>

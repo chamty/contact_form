@@ -22,8 +22,9 @@ if (!empty($_POST)) {
   // print_r($arr);
   // exit();
 
-  mb_language("Japanese");
-  mb_internal_encoding("UTF-8");
+  //メール送信
+  // mb_language("Japanese");
+  // mb_internal_encoding("UTF-8");
 
   // $to = $_SESSION['confirm']['email'];
   // $title = $_SESSION['confirm']['inquiryTitle'];
@@ -34,16 +35,16 @@ if (!empty($_POST)) {
   //   echo "メールの送信に失敗しました";
   // };
 
-  $to = 'ak.cha07.mt@gmail.com';
-  $title = 'test';
-  $content = 'hogehogehoge';
-  $header = 'From: ak.cha07.mt@gmail';
-  mb_send_mail($to, $title, $content, $header);
-  if(mb_send_mail($to, $title, $content, $header)){
-    echo "メールを送信しました";
-  } else {
-    echo "メールの送信に失敗しました";
-  };
+  // $to = '';
+  // $title = 'test';
+  // $content = 'hogehogehoge';
+  // $header = 'From:';
+  // mb_send_mail($to, $title, $content, $header);
+  // if(mb_send_mail($to, $title, $content, $header)){
+  //   echo "メールを送信しました";
+  // } else {
+  //   echo "メールの送信に失敗しました";
+  // };
 
   unset($_SESSION['confirm']);
 
