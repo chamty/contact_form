@@ -20,7 +20,7 @@ if (!empty($_POST)) {
 
     if ($_POST['tel'] === '') {
       $error['tel'] = 'blank';
-    } elseif (!preg_match('/^0\d{9,10}$ || ^[0-9]{2,4}-[0-9]{2,4}-[0-9]{3,4}$/', $_POST['tel'])) {
+    } elseif (!preg_match('/^0\d{9,10}$|^[0-9]{2,4}-[0-9]{2,4}-[0-9]{3,4}$/', $_POST['tel'])) {
       $error['tel'] = 'tel';
     }
 
